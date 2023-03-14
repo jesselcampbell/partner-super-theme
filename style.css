@@ -1,4 +1,5 @@
 /*  Reset */
+
 *,
 ::after,
 ::before {
@@ -35,11 +36,7 @@ textarea {
     font-style: normal;
 }
 
-.flow > * + * {
-    margin-block-start: var(--flow-space, 1em);
-}
-
-/* End reset */
+/* Variables */
 
 :root {
     --padding-layout: 0.5rem;
@@ -115,7 +112,7 @@ textarea {
     --cta-color-text: #424b55 !important;
     --color-text-default: #424b55 !important;
     --callout-border-radius: 1.25rem !important;
-    --inline-code-bg-color: rgba(28, 160, 241, 0.1) !important;
+    --inline-code-bg-color: rgba(28, 160, 241, 0.1)  !important;
     --content-width: 1500px !important;
     --color-code-block: #fafafa !important;
     --color-text-light: white !important;
@@ -129,6 +126,8 @@ textarea {
     --color-accent-bg: var(--color-primary) !important;
     --color-card-bg: rgba(150, 150, 150, 0.1) !important;
 }
+
+/* Basic styling */
 
 html {
     font-size: 1rem;
@@ -530,13 +529,9 @@ ul>.notion-list-item:before {
     margin: 0 auto !important;
 }
 
-.notion-root>.notion-column-list>.notion-column:first-child .notion-toggle.bg-gray {
-    display: none !important;
-}
-
 .notion-toggle .notion-heading {
     margin-top: 0 !important;
-  }
+}
 
 .notion-root>.notion-column-list>.notion-column:first-child {
     background: var(--color-bg-default) !important;
