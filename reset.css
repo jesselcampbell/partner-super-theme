@@ -1,0 +1,36 @@
+*,
+::after,
+::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    height: 100%;
+    overflow-wrap: break-word;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+canvas,
+iframe,
+img,
+object,
+picture,
+svg,
+video {
+    display: block;
+    max-width: 100%;
+}
+
+address,
+button,
+input,
+select,
+textarea {
+    font: inherit;
+    font-style: normal;
+}
