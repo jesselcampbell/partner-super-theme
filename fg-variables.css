@@ -1,0 +1,10 @@
+:root {
+    --fg-color-primary: #DD350E;
+    --fg-color-primary-10: rgb(221 53 14 / 10%);
+
+    /* Malfunctioning Super.so variables */
+    --quote-size: 1rem !important;
+    --quote-size-large: 1.25rem !important;
+    --border-radii-layout: 0.5rem !important;
+    --callout-icon-display: none !important;
+}

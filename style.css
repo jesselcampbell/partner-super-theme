@@ -1,3 +1,5 @@
 @import url('reset.css');
-@import url('variables.css');
-@import url('super.css');
+@import url('fg-variables.css');
+@import url('fg-notion.css');
+@import url('fg-layout.css');
+@import url('fg-typography.css');

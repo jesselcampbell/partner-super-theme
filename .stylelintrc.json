@@ -1,6 +1,16 @@
 {
-    "extends": "stylelint-config-standard",
+    "extends": [
+        "stylelint-config-standard",
+        "stylelint-config-idiomatic-order"
+    ],
+    "plugins": [
+		"stylelint-order"
+	],
     "rules": {
-        "selector-max-class": 2
+        "selector-class-pattern": null,
+        "no-descending-specificity": null,
+        "declaration-colon-space-after": "always",
+        "declaration-block-trailing-semicolon": "always",
+        "selector-list-comma-newline-after": "always"
     }
 }
