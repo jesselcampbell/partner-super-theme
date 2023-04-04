@@ -27,8 +27,22 @@ h3.notion-heading .notion-semantic-string {
 }
 
 .notion-quote {
-    padding: 1.25rem !important;
+    padding: 1.25em !important;
     border: 1px solid var(--color-border-default) !important;
     border-radius: var(--border-radii-layout) !important;
-    margin: 1.5rem 0 !important;
+    margin: 1.5em 0 !important;
+}
+
+.notion-bulleted-list,
+.notion-numbered-list {
+    margin: 1.5em 0 !important;
+}
+
+.notion-list-item {
+    padding: 0 !important;
+    margin: 0.125em 0 !important;
+}
+
+.notion-text + .notion-text {
+    margin: 1em 0 0 !important;
 }

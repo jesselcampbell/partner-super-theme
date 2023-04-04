@@ -1,5 +1,7 @@
 /* Super.so fixes */
-*:not(.notion-column:nth-child(2)) > .notion-text:has(> .notion-text__content:only-child > .notion-semantic-string:only-child:empty) {
+
+/* Hide empty .notion-text elements (JS removes these, this is a fallback) */
+.notion-text:has(> .notion-text__content:only-child > .notion-semantic-string:only-child:empty) {
     display: none;
 }
 
@@ -10,11 +12,6 @@
 .notion-text__content {
     padding: 0 !important;
     margin: 0 !important;
-}
-
-.notion-list-item {
-    padding: 0 !important;
-    margin: 0.125rem 0 !important;
 }
 
 /* Links */
